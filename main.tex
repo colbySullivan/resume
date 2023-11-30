@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Colby Sullivan
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Colby Sullivan} \\ \vspace{1pt}
+    \small 512-745-5726 $|$ \href{mailto:sullivanc@southwestern.com}{\underline{sullivanc@southwestern.edu}} $|$ 
+    \href{https://linkedin.com/in/colbywsullivan}{\underline{linkedin.com/in/colbywsullivan}} $|$
+    \href{https://github.com/colbySullivan}{\underline{github.com/colbySullivan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Southwestern University}{Georgetown, TX}
+      {Bachelor of Arts in Computer Science (Expected graduation May 2024)}{Aug. 2020 -- May 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \resumeSubheading
+      {Junior Security Analyst}{June 2023 -- Aug. 2023}
+      {Solis Security}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Create and manage a Git repository using Microsoft Azure that housed Python scripts that were used to display security data to clients}
+        \resumeItem{Perform daily client security checks using various Enterprise Cybersecurity platforms.}
+        \resumeItem{Prepare security assessment reports for over 100 clients.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Information Technology Support Specialist}{Aug. 2022 -- Present}
+      {Southwestern University}{Georgetown, TX}
+      \resumeItemListStart
+        \resumeItem{Communicate with managers to set up computers used on campus}
+        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty, and staff}
+        \resumeItem{Maintain computer infrastructures of the university and assist new users with hardware and software issues }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Information Technology Intern}{May 2022 -- Aug. 2022}
+      {Southwestern University}{Georgetown, TX}
+      \resumeItemListStart
+        \resumeItem{Work onsite with system admins to setup and maintain existing network infrastructure}
+        \resumeItem{Perform daily maintenance checks and assist with training new hires}
+        \resumeItem{Monitor and resolve incoming technical issues}
+      \resumeItemListEnd
+      \resumeSubheading
+      {Warehouse Technician}{May 2020 -- Aug. 2020}
+      {Cobb Tuning}{Austin, TX}
+      \resumeItemListStart
+        \resumeItem{Helped in updating and maintaining inventory records.}
+        \resumeItem{Loaded and unloaded shipment trucks with forklift or other tools.}
+        \resumeItem{Fulfilled orders and maintained a clean workstation.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Dodge Danny Platformer (\href{https://github.com/colbySullivan/Dodge-Danny-Platformer}{\underline{SOURCE}})} $|$ \emph{C\#, Godot, Git}}{Oct. 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Currently developing a platforming game that utilizes the open source game engine Godot}
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{Christoval Vineyard} $|$ \emph{Microsoft Excel}}{Aug. 2022 -- Dec. 2022}
+      %     \resumeItemListStart
+      %       \resumeItem{Worked with a group to apply Operational Research techniques to a small business}
+      %       \resumeItem{Sorted through and displayed data that was gathered by the client}
+      %       \resumeItem{Presented our findings to our peers as well as the client}
+      %     \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Starship  (\href{https://github.com/colbySullivan/Starship}{\underline{SOURCE}})} $|$ \emph{C++, Git, CMake}}{}
+          \resumeItemListStart
+            \resumeItem{Galaga clone using the Raylib open source API wrapper}
+            \resumeItem{Project utilizes a state machine system to simulate CPU opponents}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Danny-Devito-Pong  (\href{https://github.com/colbySullivan/Danny-Devito-Pong}{\underline{SOURCE}})} $|$ \emph{C++, Git, CMake}}{}
+          \resumeItemListStart
+            \resumeItem{Pong clone using the SFML open source API wrapper}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Eat the Mushroom  (\href{https://github.com/kaissouDev/Eat-the-Mushroom}{\underline{SOURCE}})} $|$ \emph{C++, Git, CMake}}{}
+          \resumeItemListStart
+            \resumeItem{Contributor to an open source multiplatform game that utilizes the Raylib API wrapper}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C/C++, C\#, Python, SQL, HTML} \\
+     \textbf{Developer Tools}{: Git, GitKraken, VS Code, Visual Studio, IntelliJ, Eclipse, Microsoft Azure} \\
+     \textbf{Libraries}{: pandas, Raylib, NumPy, Matplotlib, SFML, OpenGL}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
