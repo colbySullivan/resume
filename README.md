@@ -2,4 +2,4 @@
 
 
 
-![CSullivan_Resume](https://github.com/colbySullivan/resume/assets/88957296/e5948ae0-9b64-4a42-aead-ba10e4de5132)
+![Resume-1-1](https://github.com/colbySullivan/resume/assets/88957296/db339c95-a402-40e5-8a63-18da4ac9dc9d)
